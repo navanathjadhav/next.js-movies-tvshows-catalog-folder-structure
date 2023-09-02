@@ -1,0 +1,63 @@
+shows-and-movies-catalog/
+  ├── src/
+  │    ├── components/
+  │    │    ├── layout/
+  │    │    |    ├── Header.tsx
+  │    │    |    ├── Footer.tsx
+  │    │    |    ├── Menu.tsx
+  │    │    ├── list/
+  │    │    |    ├── MovieList.tsx
+  │    │    |    ├── ShowList.tsx
+  │    │    ├── detail/
+  │    │    |    ├── MovieDetail.tsx
+  │    │    |    ├── ShowDetail.tsx
+  │    │    ├── widgets/
+  │    │    |    ├── ShowCard.tsx
+  │    │    |    ├── MovieCard.tsx
+  │    │    |    ├── Thumbnail.tsx
+  │    │    |    ├── Preview.tsx
+  │    ├── app/
+  │    │    ├── layout.tsx
+  │    │    ├── movies/
+  │    │    |    ├── page.tsx
+  │    │    |    ├── [id]/
+  │    │    |    |    ├── page.tsx
+  │    │    ├── shows/
+  │    │    |    ├── [id]/
+  │    │    |    |    ├── page.tsx
+  │    │    |    ├── page.tsx
+  │    ├── styles/
+  │    │    ├── main.css
+  │    │    ├── MovieList.module.css
+  │    │    ├── MovieDetail.module.css
+  │    │    ├── ShowList.module.css
+  │    │    ├── ShowDetail.module.css
+  │    ├── utils/
+  │    │    ├── date-format.ts
+  │    │    ├── helpers.ts
+  │    ├── context/
+  │    │    ├── MovieContext.tsx
+  │    │    ├── ShowContext.tsx
+  │    ├── hooks/
+  │    │    ├── useMovie.ts
+  │    │    ├── useShow.ts
+  │    ├── constants/
+  │    │    ├── urls.ts
+  ├── public/
+  |    ├── images/
+  |    │    ├── movie_placeholder.jpg
+  |    │    ├── show_placeholder.jpg
+  |    │    ├── logos/
+  |    │    |     ├── app_logo.png
+  |    │    |     ├── favicon.png
+  ├── tests/
+  │    ├── movie.test.ts
+  │    ├── show.test.ts
+  ├── .env.local
+  ├── .gitignore
+  ├── README.md
+  ├── next.config.json // Configuration file for Next.js
+  ├── middleware.ts    // Next.js request middleware
+  ├── package.json
+  ├── tsconfig.json    // TypeScript configuration file
+  └── ...
